@@ -1,9 +1,8 @@
 #my-parent-container {
   position: relative;
-  margin: auto; /* This will center the container horizontally */
-  bottom: 0%;
-  left: 0%;
-  width: 600px; /* You can specify a fixed width for the container */
+  margin: auto;
+  bottom: -40%;
+  left: 40%;
 }
 
 #my-button, #my-second-button {
@@ -15,12 +14,14 @@
   font-size: 16px;
   position: absolute;
   margin-top: 0px;
-  width: 150px; /* You can specify a fixed width for the buttons */
+  width: 150px;
   height: 150px;
   display: inline-block;
   text-align: center;
   line-height: 150px;
-  margin: auto; /* This will center the buttons horizontally within their container */
+  margin: auto;
+  /* top: 50%; This property is not needed now */
+  /* transform: translateY(-50%); This property is not needed now */
 }
 
 #my-button {
@@ -33,5 +34,5 @@
   background-color: #ff0000;
   color: white;
   left: 0%;
-  margin-left: 175px; /* You can use the margin-left property to add space between the buttons */
+  margin-left: 175px;
 }
