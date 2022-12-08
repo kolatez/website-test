@@ -1,5 +1,7 @@
 #my-parent-container {
   position: relative;
+  top: 50%;
+  left: 50%;
 }
 
 #my-button, #my-second-button {
@@ -10,7 +12,6 @@
   cursor: pointer;
   font-size: 16px;
   position: absolute;
-  top: 50%;
   margin-top: -75px;
   width: 150px;
   height: 150px;
@@ -31,4 +32,3 @@
   color: white;
   left: 75%;
   margin-left: 0;
-}
