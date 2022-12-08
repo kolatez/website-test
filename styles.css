@@ -1,18 +1,18 @@
 #my-parent-container {
   position: relative;
-  top: 50%;
-  left: 50%;
+  bottom: 0%;
+  left: 0%;
 }
 
 #my-button, #my-second-button {
   font-family: 'Arial Black', sans-serif;
   padding: 0px;
-  border-radius: 10px;
+  border-radius: 30px;
   border: none;
   cursor: pointer;
   font-size: 16px;
   position: absolute;
-  margin-top: -75px;
+  margin-top: 0px;
   width: 150px;
   height: 150px;
   display: inline-block;
@@ -23,13 +23,12 @@
 #my-button {
   background-color: #000000;
   color: white;
-  left: 25%;
+  left: 0%;
   margin-left: 0;
 }
 
 #my-second-button {
   background-color: #ff0000;
   color: white;
-  left: 75%;
-  margin-left: 0;
-}
+  left: 0%;
+  margin-left: 175;
