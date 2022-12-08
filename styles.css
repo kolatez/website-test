@@ -18,4 +18,7 @@
   width: 150px;
   height: 150px;
   display: inline-block;
-  text-align: center
+  text-align: center;
+  line-height: 150px;
+  border-radius: 20px;
+}
